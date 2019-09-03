@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="469cd64c-a6a2-455b-81c5-9687bdf6e328" name="Default Changelist" comment="2019/9/3/12:34">
-      <change afterPath="$PROJECT_DIR$/PyQt5/IconFrom.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PyQt5/ScreenGeometry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PyQt5/主窗口类型.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/30、串连所有单词的字串.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/3、无重复字串.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python学习.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python学习.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyQt5/CenterForm.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyQt5/CenterForm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyQt5/FirstMainWin.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyQt5/FirstMainWin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyQt5/List.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyQt5/QuitApplication.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyQt5/QuitApplication.py" afterDir="false" />
-    </list>
+    <list default="true" id="469cd64c-a6a2-455b-81c5-9687bdf6e328" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567485270205</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2019/9/3/18:11">
+      <created>1567505486683</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567505486683</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,7 +198,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2019/9/3/12:34" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019/9/3/12:34" />
+    <MESSAGE value="2019/9/3/18:11" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019/9/3/18:11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
