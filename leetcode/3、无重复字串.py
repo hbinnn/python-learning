@@ -38,7 +38,6 @@
 一直维持这样的队列，找出队列出现最长的长度时候，求出解！
 
 """
-from collections import defaultdict
 
 
 def lengthOfLongestSubstring(s: str) -> int:

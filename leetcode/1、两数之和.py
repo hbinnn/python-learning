@@ -18,6 +18,7 @@
 nums = [3, 2, 4]
 target = 6
 
+
 # 暴力法 可能会超出时间限制
 def sum(nums, target):
     for i in range(len(nums)):
