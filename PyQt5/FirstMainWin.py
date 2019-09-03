@@ -12,16 +12,22 @@ class FirstMainWin(QMainWindow):
 
         # 设置窗口的尺寸
         self.resize(400, 300)
-
+        
+        # 获取状态栏
         self.status = self.statusBar()
 
         self.status.showMessage('只存在5秒的消息', 5000)
 
 
+# 防止别的脚本调用
 if __name__ == '__main__':
     app = QApplication(sys.argv)
+
+    # 设置图标
+    # app.setWindowIcon(QIcon('./'))
 
     main = FirstMainWin()
     main.show()
 
+    # 进入程序主循环
     sys.exit(app.exec_())

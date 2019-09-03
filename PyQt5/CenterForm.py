@@ -8,7 +8,7 @@ class CenterForm(QMainWindow):
         super(CenterForm, self).__init__()
 
         # 设置主窗口的标题
-        self.setWindowTitle('让窗口剧中')
+        self.setWindowTitle('窗口居中')
 
         # 设置窗口的尺寸
         self.resize(400, 300)
@@ -20,7 +20,7 @@ class CenterForm(QMainWindow):
         size = self.geometry()
 
         newLeft = (screen.width()-size.width())/2
-        newTop = (screen.height()-screen.height())/2
+        newTop = (screen.height()-size.height())/2
         self.move(newLeft, newTop)
 
 

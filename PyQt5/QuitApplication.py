@@ -6,35 +6,21 @@ from PyQt5.QtCore import QCoreApplication
 class QuitApplication(QMainWindow):
     def __init__(self):
         super(QuitApplication, self).__init__()
-        self.resize(300, 120)
-        self.setWindowTitle('退出应用程序')
+        self.initUI()
 
-        # 添加Button
-        self.button1 = QPushButton('退出应用程序')
-        # 将信号与槽关联
-        self.button1.clicked.connect(QCoreApplication.instance().quit())
+    def initUI(self):
+        qbtn = QPushButton('Quit', self)
+        qbtn.clicked.connect(QCoreApplication.instance().quit)
+        qbtn.resize(qbtn.sizeHint())
+        qbtn.move(50, 50)
 
-        layout = QHBoxLayout()
-        layout.addWidget(self.button1)
+        self.setGeometry(300, 300, 250, 150)
+        self.setWindowTitle('Quit button')
 
-        mainFrame = QWidget
-        mainFrame.setLayout(layout)
-
-        self.setCentralWidget(mainFrame)
-
-    # 按钮单击事件的方法（自定义的槽）
-    def OneClick_Button(self):
-        sender = self.sender()
-
-        app = QApplication.instance()
-        # 退出应用程序
-        app.quit()
 
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-
     main = QuitApplication()
     main.show()
-
     sys.exit(app.exec_())
