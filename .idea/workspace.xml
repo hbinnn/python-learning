@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="469cd64c-a6a2-455b-81c5-9687bdf6e328" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/python学习.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python学习.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/15、三数之和.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/18、四数之和.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/1、两数之和.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/1、两数之和.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyQt5/CenterForm.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyQt5/CenterForm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyQt5/QuitApplication.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyQt5/QuitApplication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/菜鸟教程/快速排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/菜鸟教程/快速排序.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1、两数之和">
+  <component name="RunManager" selected="Python.18、四数之和">
     <configuration name="1、两数之和" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,7 +68,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="CenterForm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="15、三数之和" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,11 +76,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyQt5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQt5/CenterForm.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/15、三数之和.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,7 +89,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="QuitApplication" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="18、四数之和" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,11 +97,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyQt5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQt5/QuitApplication.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/18、四数之和.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.18、四数之和" />
+        <item itemvalue="Python.15、三数之和" />
         <item itemvalue="Python.1、两数之和" />
         <item itemvalue="Python.ScreenGeometry" />
         <item itemvalue="Python.Run" />
-        <item itemvalue="Python.QuitApplication" />
-        <item itemvalue="Python.CenterForm" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +187,28 @@
       <option name="project" value="LOCAL" />
       <updated>1567505486683</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2019/9/3/18:11">
+      <created>1567526753402</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567526753402</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2019/9/4/0:06">
+      <created>1567526779567</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567526779567</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2019/9/4/0:09">
+      <created>1567526954467</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567526954467</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,17 +227,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2019/9/3/12:34" />
     <MESSAGE value="2019/9/3/18:11" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019/9/3/18:11" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/leetcode/3、无重复字串.py</url>
-          <line>79</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="2019/9/4/0:06" />
+    <MESSAGE value="2019/9/4/0:09" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019/9/4/0:09" />
   </component>
 </project>
