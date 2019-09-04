@@ -18,7 +18,6 @@ class QuitApplication(QMainWindow):
         self.setWindowTitle('Quit button')
 
 
-
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     main = QuitApplication()

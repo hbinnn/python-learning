@@ -27,8 +27,11 @@
 
 参考链接：https://www.jianshu.com/p/2b2f1f79984e
 """
+
+
 def quick_sort(nums):
     return q_sort(nums, 0, len(nums) - 1)
+
 
 def q_sort(nums, left, right):
     if left < right:
@@ -37,6 +40,7 @@ def q_sort(nums, left, right):
         q_sort(nums, left, pivot - 1)
         q_sort(nums, pivot + 1, right)
     return nums
+
 
 def Partition(nums, left, right):
     pivotkey = nums[left]
@@ -61,5 +65,6 @@ def quick_sort1(array):
         less_than_pivot = [x for x in array if x <= pivot]
         more_than_pivot = [x for x in array if x > pivot]
         return quick_sort(less_than_pivot) + [pivot] + quick_sort(more_than_pivot)
+
 
 nums = [72, 6, 57, 88, 60, 42, 83, 73, 48, 82]
