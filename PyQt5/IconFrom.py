@@ -7,6 +7,8 @@ from PyQt5.QtGui import QIcon
 QApplication中的setWindowIcon方法用于设置主窗口和应用程序图标，但如果调用了窗口的setWindowIcon方法，
 QApplication中的setWindowIcon方法就只能用于程序图标了
 """
+
+
 class FirstMainWin(QMainWindow):
     def __init__(self):
         super(FirstMainWin, self).__init__()
