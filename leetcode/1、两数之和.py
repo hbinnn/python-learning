@@ -18,24 +18,32 @@
 nums = [3, 2, 4]
 target = 6
 
+
 # 暴力法 可能会超出时间限制
-for i in range(len(nums)):
-    for j in range(i+1, len(nums)):
-        if nums[i] + nums[j] == target:
-            print([i, j])
+def sum(nums, target):
+    for i in range(len(nums)):
+        for j in range(i+1, len(nums)):
+            if nums[i] + nums[j] == target:
+                return [i, j]
 
 
 # 列表切片
-for i in range(len(nums)):
-    if target - nums[i] in nums[i+1:]:
-        print([i, nums.index(target-nums[i], i+1)])
+def sum2(nums, target):
+    for i in range(len(nums)):
+        if target - nums[i] in nums[i+1:]:
+            return [i, nums.index(target-nums[i], i+1)]
 
 
 # hash
+def sum3(nums, target):
+    dic = {}
+    for i, num in enumerate(nums):
+        if num in dic:
+            return [dic[num], i]
+        else:
+            dic[target-num] = i
 
-dic = {}
-for i, num in enumerate(nums):
-    if num in dic:
-        print([dic[num], i])
-    else:
-        dic[target-num] = i
+
+print(sum(nums, target))
+print(sum2(nums, target))
+print(sum3(nums, target))
