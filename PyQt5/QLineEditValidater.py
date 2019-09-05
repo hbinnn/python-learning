@@ -57,6 +57,8 @@ class QLineEditValidater(QWidget):
 
         self.setLayout(formLayout)
 
+        print(intLineEdit)
+
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)

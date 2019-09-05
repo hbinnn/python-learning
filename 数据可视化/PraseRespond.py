@@ -73,14 +73,29 @@ def write_to_file_csv(content, flag):
         writer.writerow(info)
 
 
-def main(id, ip):
+def submit(ip_code, node_code, protocol_code, ip_address):
+    dir = {'as': '1',
+           'v': ip_code,
+           'a': 'get',
+           'n': '1',
+           'id': node_code,
+           't': protocol_code,
+           'ip': ip_address}
+
+    url = 'https://tools.ipip.net/traceroute.php?' + urlencode(dir)
+    html = get_html(url)
+    for item in prase_html(html):
+        item = operateDir(item)
+
+
+def main(code, protocol, address):
     dir = {'as': '1',
            'v': '4',
            'a': 'get',
            'n': '1',
-           'id': id,
-           't': 'I',
-           'ip': ip}
+           'id': code,
+           't': protocol,
+           'ip': address}
 
     url = 'https://tools.ipip.net/traceroute.php?' + urlencode(dir)
     html = get_html(url)
