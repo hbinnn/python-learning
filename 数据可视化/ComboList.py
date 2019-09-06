@@ -1,5 +1,6 @@
 from PyQt5.QtWidgets import *
-import PraseRespond
+from PyQt5.QtGui import QIcon
+import mainFile
 from urllib.parse import urlencode
 
 
@@ -11,6 +12,7 @@ class QComboBoxDemo(QWidget):
     def initUI(self, ip, node, protocol):
         self.setWindowTitle('IPIP脚本程序')
         self.resize(500, 100)
+        self.setWindowIcon(QIcon('./logo.png'))
         layout = QFormLayout()
 
         self.label1 = QLabel('请选择IP版本')
@@ -25,6 +27,15 @@ class QComboBoxDemo(QWidget):
         self.label5 = QLabel('查询结果')
         self.text = QTextEdit()
 
+        layout.addRow(self.label1, self.cb1)
+        layout.addRow(self.label2, self.cb2)
+        layout.addRow(self.label3, self.cb3)
+        layout.addRow(self.label4, self.lineEdit)
+        layout.addWidget(self.button)
+        layout.addWidget(self.label5)
+        layout.addWidget(self.text)
+
+        self.setLayout(layout)
 
         for i in range(len(ip)):
             self.cb1.addItem(ip[i]['name'])
@@ -38,20 +49,6 @@ class QComboBoxDemo(QWidget):
         self.cb3.currentIndexChanged.connect(self.selectionChangeProtocol_code)
         self.lineEdit.textChanged.connect(self.textChange)
         self.button.clicked.connect(lambda:self.submit(self.ip_code, self.node_code, self.protocol_code, self.ip_address))
-
-        layout.addWidget(self.label1)
-        layout.addWidget(self.cb1)
-        layout.addWidget(self.label2)
-        layout.addWidget(self.cb2)
-        layout.addWidget(self.label3)
-        layout.addWidget(self.cb3)
-        layout.addWidget(self.label4)
-        layout.addWidget(self.lineEdit)
-        layout.addWidget(self.button)
-        layout.addWidget(self.label5)
-        layout.addWidget(self.text)
-
-        self.setLayout(layout)
 
     def selectionChangeIp_code(self):
         self.ip_label = self.cb1.currentText()
@@ -90,8 +87,8 @@ class QComboBoxDemo(QWidget):
                'ip': ip_address}
 
         url = 'https://tools.ipip.net/traceroute.php?' + urlencode(dir)
-        html = PraseRespond.get_html(url)
+        html = mainFile.getRespondHTML(url)
         flag = 0
-        for item in PraseRespond.prase_html(html):
-            item = PraseRespond.operateDir(item)
+        for item in mainFile.praseRespond(html):
+            item = mainFile.operateRespond(item)
             print(item)
