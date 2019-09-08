@@ -8,9 +8,9 @@ from PyQt5.QtWidgets import *
 import sys
 
 
-class QColorDialogDemo(QWidget):
+class QFileDialogDemo(QWidget):
     def __init__(self):
-        super(QColorDialogDemo, self).__init__()
+        super(QFileDialogDemo, self).__init__()
         self.initUI()
 
     def initUI(self):
@@ -32,7 +32,7 @@ class QColorDialogDemo(QWidget):
         self.setLayout(layout)
 
     def loadImage(self):
-        fname, _ =QFileDialog.getOpenFileName(self, '打开文件', '.', '图像文件(*.jpg *.png)')
+        fname, _ = QFileDialog.getOpenFileName(self, '打开文件', '.', '图像文件(*.jpg *.png)')
         self.imagelabel.setPixmap(QPixmap(fname))
 
     def loadText(self):
@@ -40,9 +40,9 @@ class QColorDialogDemo(QWidget):
         dialog.setFileMode(QFileDialog.AnyFile)
         dialog.setFilter(QDir.Files)
 
-        if dialog.exec_():
+        if dialog.exec():
             filenames = dialog.selectedFiles()
-            f = open(filenames[0], 'r')
+            f = open(filenames[0], encoding='utf-8', mode='r')
             with f:
                 data = f.read()
                 self.contents.setText(data)
@@ -50,6 +50,6 @@ class QColorDialogDemo(QWidget):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    main = QColorDialogDemo()
+    main = QFileDialogDemo()
     main.show()
     sys.exit(app.exec_())

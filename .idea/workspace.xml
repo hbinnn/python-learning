@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="469cd64c-a6a2-455b-81c5-9687bdf6e328" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/15、三数之和.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/18、四数之和.py" afterDir="false" />
+    <list default="true" id="469cd64c-a6a2-455b-81c5-9687bdf6e328" name="Default Changelist" comment="2019/9/5/0:28">
+      <change afterPath="$PROJECT_DIR$/PyQt5/ClipBoard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyQt5/DateTimeDemo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyQt5/DrapDrop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyQt5/FillRect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyQt5/MyCalendar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyQt5/logo1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyQt5/CenterForm.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyQt5/CenterForm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyQt5/QuitApplication.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyQt5/QuitApplication.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/菜鸟教程/快速排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/菜鸟教程/快速排序.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyQt5/DrawAll.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyQt5/DrawAll.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyQt5/QFileDialogDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyQt5/QFileDialogDemo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据可视化/ComboList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据可视化/PraseRespond.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据可视化/PraseWatchNode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据可视化/Run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据可视化/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据可视化/mainFile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据可视化/node_ipv4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据可视化/node_ipv4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据可视化/node_ipv6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据可视化/node_ipv6.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,9 +43,10 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -46,8 +60,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.18、四数之和">
-    <configuration name="1、两数之和" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Run">
+    <configuration name="ComboList" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -55,11 +69,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据可视化" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/1、两数之和.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据可视化/ComboList.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -68,7 +82,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="15、三数之和" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="DateTimeDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,32 +90,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyQt5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/15、三数之和.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="18、四数之和" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/18、四数之和.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQt5/DateTimeDemo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ScreenGeometry" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,11 +132,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyQt5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据可视化" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQt5/ScreenGeometry.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据可视化/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="uiDesigner" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据可视化" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据可视化/uiDesigner.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.18、四数之和" />
-        <item itemvalue="Python.15、三数之和" />
-        <item itemvalue="Python.1、两数之和" />
-        <item itemvalue="Python.ScreenGeometry" />
         <item itemvalue="Python.Run" />
+        <item itemvalue="Python.ComboList" />
+        <item itemvalue="Python.uiDesigner" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.DateTimeDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +222,21 @@
       <option name="project" value="LOCAL" />
       <updated>1567526954467</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2019/9/4/0:09">
+      <created>1567614470640</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1567614470640</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2019/9/5/0:28">
+      <created>1567614498357</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1567614498357</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,10 +253,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="2019/9/3/12:34" />
     <MESSAGE value="2019/9/3/18:11" />
     <MESSAGE value="2019/9/4/0:06" />
     <MESSAGE value="2019/9/4/0:09" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019/9/4/0:09" />
+    <MESSAGE value="2019/9/5/0:28" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019/9/5/0:28" />
   </component>
 </project>

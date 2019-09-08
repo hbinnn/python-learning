@@ -2,7 +2,7 @@
 绘制各种图形
 """
 
-import sys,math
+import sys, math
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
@@ -50,8 +50,9 @@ class DrawAll(QWidget):
         painter.drawPolygon(polygon)
 
         # 绘制图像
-        image = QImage('./logo.png')
+        image = QImage('./logo1.png')
         rect = QRect(10, 400, image.width(), image.height())
+        # image.save('./logo1.png')
         painter.drawImage(rect, image)
 
         painter.end()
