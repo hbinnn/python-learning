@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="469cd64c-a6a2-455b-81c5-9687bdf6e328" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/数据可视化/uiDesigner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python学习.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python学习.iml" afterDir="false" />
+    <list default="true" id="469cd64c-a6a2-455b-81c5-9687bdf6e328" name="Default Changelist" comment="2019/9/9/13:44">
+      <change afterPath="$PROJECT_DIR$/PyQt5/Menu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyQt5/PrintDialog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyQt5/PrintSupport.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyQt5/StatusBar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyQt5/ToolBar.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyQt5/DateTimeDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyQt5/DateTimeDemo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/数据可视化/ComboList.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据可视化/ComboList.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/数据可视化/Run.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据可视化/Run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据可视化/mainFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据可视化/mainFile.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +50,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Run">
-    <configuration name="DrawAll (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.PrintSupport">
+    <configuration name="DateTimeDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,7 +63,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQt5/DrawAll.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQt5/DateTimeDemo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -69,7 +72,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="DrawAll" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Menu" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -77,11 +80,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyQt5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DrawAll.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQt5/Menu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -90,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="DrawMultiLine" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="PrintSupport" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,11 +101,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyQt5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DrawMultiLine.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQt5/PrintSupport.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="StatusBar" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,11 +122,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据可视化" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyQt5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据可视化/Run.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQt5/StatusBar.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ToolBar" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -140,11 +143,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据可视化" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyQt5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据可视化/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQt5/ToolBar.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Run" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.DrawAll (1)" />
-        <item itemvalue="Python.DrawAll" />
-        <item itemvalue="Python.DrawMultiLine" />
+        <item itemvalue="Python.PrintSupport" />
+        <item itemvalue="Python.StatusBar" />
+        <item itemvalue="Python.ToolBar" />
+        <item itemvalue="Python.Menu" />
+        <item itemvalue="Python.DateTimeDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567751696430</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2019/9/9/13:44">
+      <created>1568007923958</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1568007923958</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -234,7 +244,8 @@
     <MESSAGE value="2019/9/3/18:11" />
     <MESSAGE value="2019/9/5/17:58" />
     <MESSAGE value="2019/9/6/14:34" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019/9/6/14:34" />
+    <MESSAGE value="2019/9/9/13:44" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019/9/9/13:44" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

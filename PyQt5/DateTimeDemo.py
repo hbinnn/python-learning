@@ -37,8 +37,8 @@ class DateTimeDemo(QDialog):
         timeEdit.setDisplayFormat("HH:mm:dd")
 
         dateTimeEdit1.dateChanged.connect(self.onDateChanged)
-        dateTimeEdit1.dateChanged.connect(self.onTimeChanged)
-        dateTimeEdit1.dateChanged.connect(self.onDateTimeChanged)
+        dateTimeEdit1.timeChanged.connect(self.onTimeChanged)
+        dateTimeEdit1.dateTimeChanged.connect(self.onDateTimeChanged)
 
         self.btn = QPushButton('获取日期和时间')
         self.btn.clicked.connect(self.onButtonClick)
@@ -64,6 +64,8 @@ class DateTimeDemo(QDialog):
     def onButtonClick(self):
         dateTime = self.dateTimeEdit.dateTime()
         print(dateTime)
+        print(self.dateTimeEdit.maximumDate())
+        print(self.dateTimeEdit.minimumDate())
 
 
 if __name__ == '__main__':

@@ -8,18 +8,17 @@ import time
 class QComboBoxDemo(QWidget):
     def __init__(self, ip, node_ipv4, node_ipv6, protocol):
         super(QComboBoxDemo, self).__init__()
-        self.initUI(ip, node_ipv4, node_ipv6, protocol)
-
-    def initUI(self, ip, node_ipv4, node_ipv6, protocol):
-        self.setWindowTitle('IPIP脚本程序')
-        self.resize(500, 100)
-        self.setWindowIcon(QIcon('./logo.png'))
-        layout = QFormLayout()
-
         self.ip = ip
         self.node_ipv4 = node_ipv4
         self.node_ipv6 = node_ipv6
         self.protocol = protocol
+        self.initUI()
+
+    def initUI(self):
+        self.setWindowTitle('IPIP脚本程序')
+        self.resize(500, 100)
+        self.setWindowIcon(QIcon('./logo.png'))
+        layout = QFormLayout()
 
         self.label1 = QLabel('请选择IP版本')
         self.cb1 = QComboBox()
