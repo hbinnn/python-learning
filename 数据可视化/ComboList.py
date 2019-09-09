@@ -3,6 +3,7 @@ from PyQt5.QtGui import QIcon
 import mainFile
 from urllib.parse import urlencode
 import time
+import os
 
 
 class QComboBoxDemo(QWidget):
@@ -29,12 +30,14 @@ class QComboBoxDemo(QWidget):
         self.label4 = QLabel('请输入IP地址')
         self.lineEdit = QLineEdit()
         self.button = QPushButton('查询')
+        self.button2 = QPushButton('查看查询结果')
 
         layout.addRow(self.label1, self.cb1)
         layout.addRow(self.label2, self.cb2)
         layout.addRow(self.label3, self.cb3)
         layout.addRow(self.label4, self.lineEdit)
         layout.addWidget(self.button)
+        layout.addWidget(self.button2)
 
         self.setLayout(layout)
 
@@ -54,6 +57,7 @@ class QComboBoxDemo(QWidget):
         self.cb3.currentIndexChanged.connect(self.selectionChangeProtocol_code)
         self.lineEdit.textChanged.connect(self.textChange)
         self.button.clicked.connect(self.submit)
+        self.button2.clicked.connect(self.openfile)
 
     def selectionChangeIp_code(self):
         self.ip_code = '4' if self.cb1.currentText() == 'IPv4' else '6'
@@ -88,20 +92,26 @@ class QComboBoxDemo(QWidget):
         self.ip_address = text
 
     def submit(self):
-        dir = {'as': '1',
-               'v': self.ip_code,
-               'a': 'get',
-               'n': '1',
-               'id': self.node_code,
-               't': self.protocol_code,
-               'ip': self.ip_address}
 
-        url = 'https://tools.ipip.net/traceroute.php?' + urlencode(dir)
-        html = mainFile.getRespondHTML(url)
-        filename = 'TraceRoute ' + '8.8.8.8 ' + time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) + '.csv'
-        filename = filename.replace(':', '-')
-        flag = 0
-        for item in mainFile.praseRespond(html):
-            item = mainFile.operateRespond(item)
-            mainFile.writeRespond_to_file_csv(filename, item, flag)
-            flag = 1
+        for address in self.ip_address.split(';'):
+            dir = {'as': '1',
+                   'v': self.ip_code,
+                   'a': 'get',
+                   'n': '1',
+                   'id': self.node_code,
+                   't': self.protocol_code,
+                   'ip': address}
+
+            url = 'https://tools.ipip.net/traceroute.php?' + urlencode(dir)
+            html = mainFile.getRespondHTML(url)
+            self.filename = 'TraceRoute ' + address + ' ' + time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) + '.csv'
+            self.filename = self.filename.replace(':', '-')
+
+            flag = 0
+            for item in mainFile.praseRespond(html):
+                item = mainFile.operateRespond(item)
+                mainFile.writeRespond_to_file_csv(self.filename, item, flag)
+                flag = 1
+
+    def openfile(self):
+       pass
