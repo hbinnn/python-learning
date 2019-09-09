@@ -1,26 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="469cd64c-a6a2-455b-81c5-9687bdf6e328" name="Default Changelist" comment="2019/9/5/0:28">
-      <change afterPath="$PROJECT_DIR$/PyQt5/ClipBoard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PyQt5/DateTimeDemo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PyQt5/DrapDrop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PyQt5/FillRect.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PyQt5/MyCalendar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PyQt5/logo1.png" afterDir="false" />
+    <list default="true" id="469cd64c-a6a2-455b-81c5-9687bdf6e328" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/数据可视化/uiDesigner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python学习.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python学习.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyQt5/DrawAll.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyQt5/DrawAll.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyQt5/QFileDialogDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyQt5/QFileDialogDemo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据可视化/ComboList.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据可视化/PraseRespond.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据可视化/PraseWatchNode.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据可视化/Run.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据可视化/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据可视化/mainFile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据可视化/node_ipv4.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据可视化/node_ipv4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据可视化/node_ipv6.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据可视化/node_ipv6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据可视化/ComboList.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据可视化/ComboList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据可视化/Run.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据可视化/Run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据可视化/mainFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据可视化/mainFile.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,13 +27,13 @@
   </component>
   <component name="ProjectId" id="1QJIDj795zGRCRT71o2kmjdWMCs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="2" id="添加" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -61,28 +48,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.Run">
-    <configuration name="ComboList" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据可视化" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据可视化/ComboList.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="DateTimeDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="DrawAll (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,7 +60,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQt5/DateTimeDemo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQt5/DrawAll.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DrawAll" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DrawAll.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DrawMultiLine" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DrawMultiLine.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,34 +153,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="uiDesigner" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据可视化" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据可视化/uiDesigner.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Run" />
-        <item itemvalue="Python.ComboList" />
-        <item itemvalue="Python.uiDesigner" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.DateTimeDemo" />
+        <item itemvalue="Python.DrawAll (1)" />
+        <item itemvalue="Python.DrawAll" />
+        <item itemvalue="Python.DrawMultiLine" />
       </list>
     </recent_temporary>
   </component>
@@ -201,43 +188,32 @@
       <option name="project" value="LOCAL" />
       <updated>1567505486683</updated>
     </task>
-    <task id="LOCAL-00003" summary="2019/9/3/18:11">
-      <created>1567526753402</created>
+    <task id="LOCAL-00003" summary="2019/9/5/17:58">
+      <created>1567677521036</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1567526753402</updated>
+      <updated>1567677521036</updated>
     </task>
-    <task id="LOCAL-00004" summary="2019/9/4/0:06">
-      <created>1567526779567</created>
+    <task id="LOCAL-00004" summary="2019/9/6/14:34">
+      <created>1567751696429</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1567526779567</updated>
+      <updated>1567751696430</updated>
     </task>
-    <task id="LOCAL-00005" summary="2019/9/4/0:09">
-      <created>1567526954467</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1567526954467</updated>
-    </task>
-    <task id="LOCAL-00006" summary="2019/9/4/0:09">
-      <created>1567614470640</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1567614470640</updated>
-    </task>
-    <task id="LOCAL-00007" summary="2019/9/5/0:28">
-      <created>1567614498357</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1567614498357</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -256,9 +232,24 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="2019/9/3/12:34" />
     <MESSAGE value="2019/9/3/18:11" />
-    <MESSAGE value="2019/9/4/0:06" />
-    <MESSAGE value="2019/9/4/0:09" />
-    <MESSAGE value="2019/9/5/0:28" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019/9/5/0:28" />
+    <MESSAGE value="2019/9/5/17:58" />
+    <MESSAGE value="2019/9/6/14:34" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019/9/6/14:34" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetcode/3、无重复字串.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/数据可视化/PraseRespond.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

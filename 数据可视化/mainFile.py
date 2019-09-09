@@ -30,13 +30,44 @@ def getWatchNodeHTML(url):
 
 
 # 提取列表信息，包含IP版本（ipv4、ipv6），asn信息（地理信息与asn号），所用协议（icmp、tcp）
-def praseWatchNode(html):
+def praseWatchNode_ip(html):
     soup = BeautifulSoup(html, 'lxml')
-    for option in soup.find_all('option'):
-        yield {
-            'code': option.attrs['value'],
-            'name': option.string
-        }
+    for item in soup.find_all(name='select', attrs={'name': 'v', 'class': 'form-control'}):
+        for i in item.find_all(name='option'):
+            yield {
+                'code': i.attrs['value'],
+                'name': i.string
+            }
+
+
+def praseWatchNode_asn_ipv4(html):
+    soup = BeautifulSoup(html, 'lxml')
+    for item in soup.find_all(name='select', attrs={'name': 'id', 'id': 'note', 'class': 'form-control J_nodeList'}):
+        for i in item.find_all(name='option'):
+            yield {
+                'code': i.attrs['value'],
+                'name': i.string
+            }
+
+
+def praseWatchNode_asn_ipv6(html):
+    soup = BeautifulSoup(html, 'lxml')
+    for item in soup.find_all(name='select', attrs={'name': 'id', 'id': 'note', 'class': 'form-control J_nodeList'}):
+        for i in item.find_all(name='option'):
+            yield {
+                'code': i.attrs['value'],
+                'name': i.string
+            }
+
+
+def praseWatchNode_protocol(html):
+    soup = BeautifulSoup(html, 'lxml')
+    for item in soup.find_all(name='select', attrs={'name': 't', 'class': 'form-control'}):
+        for i in item.find_all(name='option'):
+            yield {
+                'code': i.attrs['value'],
+                'name': i.string
+            }
 
 
 # 获取查询结果页面的html
@@ -107,8 +138,8 @@ def writeWarchNode_to_file_csv(content, ip, flag):
 
 
 # 将响应结果写入csv文件
-def writeRespond_to_file_csv(content, flag):
-    with open('respond.csv', 'a', newline='') as csvfile:
+def writeRespond_to_file_csv(filename, content, flag):
+    with open(filename, 'a', newline='') as csvfile:
         writer = csv.writer(csvfile, delimiter=',')
         if flag == 0:
             head = list(content.keys())
@@ -118,14 +149,16 @@ def writeRespond_to_file_csv(content, flag):
 
 
 # 获取监控点网页主函数
+"""
 def getWatchNode_main(ip):
     url = 'https://tools.ipip.net/traceroute.php?v=' + str(ip)
     html = getWatchNodeHTML(url)
     flag = 0
-    for item in praseWatchNode(html):
+    for item in praseWatchNode_ip(html):
         writeWarchNode_to_file_csv(item, ip, flag)
         flag = 1
         yield item
+"""
 
 
 # 获取响应页面html函数
@@ -151,6 +184,7 @@ def getRespond_main(code, protocol, address):
         writer.writerow('\n')
 
 
+"""
 # 处理响应主函数
 def run_getRespond_main(i):
     ip = []
@@ -169,3 +203,4 @@ def run_getRespond_main(i):
     node = items
 
     return ip, node, protocol
+"""
