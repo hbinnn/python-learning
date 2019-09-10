@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="469cd64c-a6a2-455b-81c5-9687bdf6e328" name="Default Changelist" comment="2019/9/9/16:23">
-      <change afterPath="$PROJECT_DIR$/数据可视化/TraceRoute 114.114.114.114 2019-09-09 17-54-20.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据可视化/TraceRoute 114.114.114.114 2019-09-09 18-01-51.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据可视化/TraceRoute 8.8.8.8 2019-09-09 17-54-03.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据可视化/TraceRoute 8.8.8.8 2019-09-09 18-01-36.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据可视化/TraceRoute 8.8.8.8 2019-09-09 18-03-52.csv" afterDir="false" />
+    <list default="true" id="469cd64c-a6a2-455b-81c5-9687bdf6e328" name="Default Changelist" comment="2019/9/9/18:05">
       <change afterPath="$PROJECT_DIR$/数据可视化/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/数据可视化/ComboList.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据可视化/ComboList.py" afterDir="false" />
@@ -35,7 +30,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -50,7 +45,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.Run">
-    <configuration name="PrintSupport" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ComboList" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -58,11 +53,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyQt5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据可视化" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQt5/PrintSupport.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据可视化/ComboList.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -71,7 +66,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="QFileDialogDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="QCheckBoxDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -83,7 +78,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQt5/QFileDialogDemo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQt5/QCheckBoxDemo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,27 +108,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="StatusBar" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyQt5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQt5/StatusBar.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,7 +120,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据可视化/test.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\huangsb1\PycharmProjects\python-learning\数据可视化\QListWidgetTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据可视化" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据可视化/test2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,9 +154,9 @@
       <list>
         <item itemvalue="Python.Run" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.QFileDialogDemo" />
-        <item itemvalue="Python.PrintSupport" />
-        <item itemvalue="Python.StatusBar" />
+        <item itemvalue="Python.ComboList" />
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.QCheckBoxDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568017425134</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2019/9/9/18:05">
+      <created>1568023531277</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1568023531277</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -252,7 +254,8 @@
     <MESSAGE value="2019/9/6/14:34" />
     <MESSAGE value="2019/9/9/13:44" />
     <MESSAGE value="2019/9/9/16:23" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019/9/9/16:23" />
+    <MESSAGE value="2019/9/9/18:05" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019/9/9/18:05" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
