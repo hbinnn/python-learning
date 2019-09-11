@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="469cd64c-a6a2-455b-81c5-9687bdf6e328" name="Default Changelist" comment="2019/9/9/18:05">
-      <change afterPath="$PROJECT_DIR$/数据可视化/test.py" afterDir="false" />
+    <list default="true" id="469cd64c-a6a2-455b-81c5-9687bdf6e328" name="Default Changelist" comment="2019/9/10/17:47">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据结构/SchoolHRSystem.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/数据可视化/ComboList.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据可视化/ComboList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据可视化/mainFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据可视化/mainFile.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,27 +68,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="QCheckBoxDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyQt5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQt5/QCheckBoxDemo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Run" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,6 +81,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据可视化/Run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SchoolHRSystem" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构/SchoolHRSystem.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,10 +155,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.Run" />
+        <item itemvalue="Python.SchoolHRSystem" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.ComboList" />
         <item itemvalue="Python.test2" />
-        <item itemvalue="Python.QCheckBoxDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +222,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568023531277</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2019/9/10/17:47">
+      <created>1568108850216</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1568108850216</updated>
+    </task>
+    <task id="LOCAL-00009" summary="2019/9/10/17:47">
+      <created>1568108897589</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1568108897589</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -255,16 +271,12 @@
     <MESSAGE value="2019/9/9/13:44" />
     <MESSAGE value="2019/9/9/16:23" />
     <MESSAGE value="2019/9/9/18:05" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019/9/9/18:05" />
+    <MESSAGE value="2019/9/10/17:47" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019/9/10/17:47" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/leetcode/3、无重复字串.py</url>
-          <line>78</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/数据可视化/PraseRespond.py</url>
           <line>90</line>

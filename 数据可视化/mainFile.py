@@ -148,8 +148,8 @@ def writeRespond_to_file_csv(filename, content, flag):
         writer.writerow(info)
 
 
-# 获取监控点网页主函数
 """
+# 获取监控点网页主函数
 def getWatchNode_main(ip):
     url = 'https://tools.ipip.net/traceroute.php?v=' + str(ip)
     html = getWatchNodeHTML(url)
@@ -160,7 +160,7 @@ def getWatchNode_main(ip):
         yield item
 """
 
-
+"""
 # 获取响应页面html函数
 def getRespond_main(code, protocol, address):
     dir = {'as': '1',
@@ -182,7 +182,7 @@ def getRespond_main(code, protocol, address):
     with open('respond.csv', 'a', newline='') as csvfile:
         writer = csv.writer(csvfile, delimiter=',')
         writer.writerow('\n')
-
+"""
 
 """
 # 处理响应主函数
