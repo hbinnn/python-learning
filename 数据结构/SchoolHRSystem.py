@@ -66,6 +66,30 @@ class Person:
                           "性别： "+self._gender,
                           "出生日期: "+str(self._birthday)))
 
+class Student(Person):
+    _id_num = 0
+
+    @classmethod
+    def _id_gen(cls):
+        cls._id_num += 1
+        year = datetime.date.today().year
+        return "1{:04}{:05}".format(year, cls._id_num)
+
+    def __init__(self, name, gender, birthday, department):
+        Person.__init__(self, name, gender, birthday, Student._id_gen())
+        self._department = department
+        self._enroll_date = datetime.date.today()
+        self._courses = {}
+
+    def set_course(self, course_name):
+        self._courses[course_name] = None
+
+    def set_score(self, course_name, score):
+        if course_name not in self._courses:
+            raise PersonValueError("No this course selected", course_name)
+        self._courses[course_name] = score
+
+
 
 p1 = Person("谢雨洁", "女", (1995, 7, 30), "1201510111")
 p2 = Person("汪力强", "男", (1990, 2, 17), "1201380324")
