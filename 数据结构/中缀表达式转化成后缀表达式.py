@@ -5,7 +5,7 @@ operators = ['+', '-', '*', '/', '(', ')']
 
 
 # 前缀表达式转化成后缀表达式
-def middle2behind(expresssion):
+def middle2behind(expression):
     result = []             # 结果列表
     stack = []              # 栈
     for item in expression:
@@ -20,7 +20,7 @@ def middle2behind(expresssion):
 
             elif item == ')':       # 如果当前字符为右括号则全部弹出（碰到左括号停止）
                 t = stack.pop()
-                while t!='(':
+                while t != '(':
                     result.append(t)
                     t = stack.pop()
 
@@ -98,6 +98,7 @@ def operate(num1, num2, operator):
         return num2/num1
 
 
-expression = "9+(3-1)*3+10/2"
+expression = "9+(3-1)*3+8/2"
 result = middle2behind(expression)
+print(result)
 print(calculate(result))

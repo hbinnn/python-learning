@@ -1,3 +1,4 @@
+# coding=gbk
 import ComboList
 import mainFile
 from PyQt5.QtWidgets import *
@@ -5,7 +6,7 @@ import sys
 
 # 获取IP版本,监控机节点，可用协议
 url1 = 'https://tools.ipip.net/traceroute.php?v=4'
-url2 = 'https://tools.ipip.net/traceroute.php?v=6 '
+url2 = 'https://tools.ipip.net/traceroute.php?v=6'
 html1 = mainFile.getWatchNodeHTML(url1)
 html2 = mainFile.getWatchNodeHTML(url2)
 
