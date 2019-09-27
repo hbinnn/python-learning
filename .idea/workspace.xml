@@ -2,49 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="469cd64c-a6a2-455b-81c5-9687bdf6e328" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/124、二叉树中的最大路径和.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/206、反转链表.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/42、接雨水.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/45、跳跃游戏Ⅱ.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/50、Pow(x, n).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/55、跳跃游戏.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/5、最长回文子串.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/687、最长同值路径.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/70、爬楼梯.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/92、反转链表Ⅱ.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/BinaryTree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/PriorityQueue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/SortNum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/104、二叉树的最大深度.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/110、平衡二叉树.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/校招上机考试/vivo2.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/校招上机考试/小米1.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/校招上机考试/小米2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/菜鸟教程/基数排序.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python学习.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python学习.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/菜鸟教程/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/1021、删除最外层的括号.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/1021、删除最外层的括号.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/102、二叉树的层次遍历.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/102、二叉树的层次遍历.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/144、二叉树的前序遍历.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/144、二叉树的前序遍历.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/145、二叉树的后序遍历.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/145、二叉树的后序遍历.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/19、删除链表的倒数第N个节点.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/19、删除链表的倒数第N个节点.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/20、有效的括号.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/20、有效的括号.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/21、合并两个有序链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/21、合并两个有序链表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/2、两数相加.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/2、两数相加.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/30、串连所有单词的字串.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/30、串连所有单词的字串.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/3、无重复字串.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/3、无重复字串.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/7、整数反转.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/7、整数反转.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/9、回文数.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/9、回文数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/二叉树及其遍历.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/二叉树及其遍历.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据结构/Queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构/SQueue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据结构/中缀表达式转化成后缀表达式.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构/中缀表达式转化成后缀表达式.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据结构/迷宫求解.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构/迷宫求解.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/菜鸟教程/冒泡排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/菜鸟教程/冒泡排序.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/菜鸟教程/归并排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/菜鸟教程/归并排序.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/菜鸟教程/快速排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/菜鸟教程/快速排序.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/菜鸟教程/插入排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/菜鸟教程/插入排序.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/菜鸟教程/计数排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/11、盛最多水的容器.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/菜鸟教程/选择排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/菜鸟教程/选择排序.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,8 +49,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.9、回文数">
-    <configuration name="归并排序" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test (1)">
+    <configuration name="冒泡排序" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,28 +62,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/菜鸟教程/归并排序.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="50、Pow(x, n)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/50、Pow(x, n).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/菜鸟教程/冒泡排序.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,6 +113,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/菜鸟教程" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/菜鸟教程/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.冒泡排序" />
         <item itemvalue="Python.9、回文数" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.7、整数反转" />
-        <item itemvalue="Python.50、Pow(x, n)" />
-        <item itemvalue="Python.归并排序" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569389908145</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2019/9/27/9:38">
+      <created>1569548279911</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1569548279911</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -307,7 +279,8 @@
     <MESSAGE value="2019/9/8/13:50" />
     <MESSAGE value="2019/9/21/23:10" />
     <MESSAGE value="2019/9/25/13:38" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019/9/25/13:38" />
+    <MESSAGE value="2019/9/27/9:38" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019/9/27/9:38" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
