@@ -21,7 +21,7 @@
 链接：https://leetcode-cn.com/problems/reverse-integer
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 """
-
+"""
 x = -123
 # 转为列表
 res = list(str(x))
@@ -44,6 +44,22 @@ else:
 ans = int(ans)
 if -2**31 <= ans <= 2**31-1:
     print(ans)
+"""
 
 
-
+class Solution:
+    def reverse(self, x: int) -> int:
+        rev = 0
+        if x<0:
+            flag = 1
+        else:
+            flag = 0
+        x = abs(x)
+        while x!=0:
+            pop = x % 10
+            x = x//10
+            rev = rev*10 +pop
+        if pow(-2, 31) <= rev <= pow(2, 31)-1:
+            return rev*(-1) if flag else rev
+        else:
+            return 0

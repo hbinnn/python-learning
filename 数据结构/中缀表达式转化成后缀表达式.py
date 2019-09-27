@@ -4,7 +4,7 @@
 operators = ['+', '-', '*', '/', '(', ')']
 
 
-# 前缀表达式转化成后缀表达式
+# 中缀表达式转化成后缀表达式
 def middle2behind(expression):
     result = []             # 结果列表
     stack = []              # 栈

@@ -61,10 +61,12 @@ def quick_sort1(array):
     if len(array) < 2:
         return array
     else:
-        pivot = array[0]
-        less_than_pivot = [x for x in array if x <= pivot]
-        more_than_pivot = [x for x in array if x > pivot]
-        return quick_sort(less_than_pivot) + [pivot] + quick_sort(more_than_pivot)
+        # pivot = array[0]
+        # less_than_pivot = [x for x in array if x <= pivot]
+        # more_than_pivot = [x for x in array if x > pivot]
+        # return quick_sort(less_than_pivot) + [pivot] + quick_sort(more_than_pivot)
+        return quick_sort(array)
 
 
 nums = [72, 6, 57, 88, 60, 42, 83, 73, 48, 82]
+print(quick_sort1(nums))

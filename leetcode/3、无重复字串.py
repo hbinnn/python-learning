@@ -55,7 +55,7 @@ def lengthOfLongestSubstring(s: str) -> int:
     for i in range(n):
         val = s[i]
         # 如果该值不在窗口中
-        if not val in lookup:
+        if val not in lookup:
             # 添加到窗口内
             lookup.append(val)
             # 当前长度+1

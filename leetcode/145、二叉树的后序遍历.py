@@ -5,7 +5,22 @@ class TreeNode:
         self.left = None
         self.right = None
 
+# µÝ¹é
+class Solution:
+    def postorderTraversal(self, root: TreeNode):
+        res = []
 
+        def helper(node):
+            if not node:
+                return
+            helper(node.left)
+            helper(node.right)
+            res.append(node.val)
+        helper(root)
+        return res
+
+
+# µü´ú
 class Solution:
     def postorderTraversal(self, root: TreeNode):
         stack, res = [], []
@@ -14,7 +29,8 @@ class Solution:
         stack.append(root)
         while stack:
             root = stack.pop()
-            res.append(root.val)
+            if root:
+                res.append(root.val)
             if root.left:
                 stack.append(root.left)
             if root.right:

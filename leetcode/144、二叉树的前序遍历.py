@@ -28,7 +28,6 @@ class TreeNode:
 class Solution:
     def preorderTraversal(self, root: TreeNode):
         res = []
-
         def helper(root):
             if root is None:
                 return
@@ -42,11 +41,16 @@ class Solution:
 # ·ÇµÝ¹é
 class Solution:
     def preorderTraversal(self, root: TreeNode):
-        res, st = [], []
-        while root or st:
-            while root:
+        res, stack = [], []
+        if not root:
+            return
+        stack.append(root)
+        while stack:
+            root = stack.pop()
+            if root:
                 res.append(root.val)
-                st.append(root.right)
-                root = root.left
-            root = st.pop()
+            if root.right:
+                stack.append(root.right)
+            if root.left:
+                stack.append(root.left)
         return res

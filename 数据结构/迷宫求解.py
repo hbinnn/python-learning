@@ -52,7 +52,7 @@ def maze_solver(maze, start, end):
 
 
 # 基于队列的回溯求解
-from Queue import *
+from SQueue import *
 
 
 def maze_solver_quene(maze, start, end):

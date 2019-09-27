@@ -6,7 +6,7 @@ class Node():
         self.right = None
 
 
-class Tree():
+class Tree:
     # 树类
     def __init__(self):
         self.root = Node()

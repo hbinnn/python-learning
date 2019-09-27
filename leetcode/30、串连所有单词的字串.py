@@ -55,7 +55,6 @@ def findSubstring(s, words):
     return res
 
 
-
 # 滑动窗口
 def findSubstring2(s, words):
     # 如果s或者word为空，返回0

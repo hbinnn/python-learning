@@ -51,7 +51,7 @@ class Solution:
                 i += 2
                 count += 1
                 continue
-            target = S[i]
+            target += S[i]
             i += 1
         return target
 

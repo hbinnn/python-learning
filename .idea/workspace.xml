@@ -1,9 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="469cd64c-a6a2-455b-81c5-9687bdf6e328" name="Default Changelist" comment="2019/9/11/16:07">
+    <list default="true" id="469cd64c-a6a2-455b-81c5-9687bdf6e328" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/leetcode/124、二叉树中的最大路径和.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/206、反转链表.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/42、接雨水.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/45、跳跃游戏Ⅱ.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/50、Pow(x, n).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/55、跳跃游戏.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/5、最长回文子串.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/687、最长同值路径.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/70、爬楼梯.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/92、反转链表Ⅱ.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据结构/BinaryTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据结构/PriorityQueue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据结构/SortNum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/校招上机考试/vivo2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/校招上机考试/小米1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/校招上机考试/小米2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/菜鸟教程/基数排序.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python学习.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python学习.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据结构/SchoolHRSystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构/SchoolHRSystem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/1021、删除最外层的括号.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/1021、删除最外层的括号.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/102、二叉树的层次遍历.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/102、二叉树的层次遍历.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/144、二叉树的前序遍历.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/144、二叉树的前序遍历.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/145、二叉树的后序遍历.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/145、二叉树的后序遍历.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/19、删除链表的倒数第N个节点.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/19、删除链表的倒数第N个节点.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/20、有效的括号.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/20、有效的括号.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/21、合并两个有序链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/21、合并两个有序链表.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/2、两数相加.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/2、两数相加.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/30、串连所有单词的字串.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/30、串连所有单词的字串.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/3、无重复字串.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/3、无重复字串.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/7、整数反转.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/7、整数反转.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/9、回文数.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/9、回文数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/二叉树及其遍历.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/二叉树及其遍历.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构/Queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构/SQueue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构/中缀表达式转化成后缀表达式.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构/中缀表达式转化成后缀表达式.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构/迷宫求解.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构/迷宫求解.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/菜鸟教程/冒泡排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/菜鸟教程/冒泡排序.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/菜鸟教程/归并排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/菜鸟教程/归并排序.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/菜鸟教程/快速排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/菜鸟教程/快速排序.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/菜鸟教程/插入排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/菜鸟教程/插入排序.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/菜鸟教程/计数排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/11、盛最多水的容器.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/菜鸟教程/选择排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/菜鸟教程/选择排序.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,12 +64,12 @@
   </component>
   <component name="ProjectId" id="1QJIDj795zGRCRT71o2kmjdWMCs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="添加" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/IPIP脚本程序(TraceRoute)" />
+    <property name="last_opened_file_path" value="E:/XMU/大三下/多媒体通信/作业/作业三/程序/huffman.py" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunDashboard">
@@ -43,8 +84,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Run">
-    <configuration name="ComboList" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.9、回文数">
+    <configuration name="归并排序" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -52,11 +93,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据可视化" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/菜鸟教程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据可视化/ComboList.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/菜鸟教程/归并排序.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -65,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="50、Pow(x, n)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,11 +114,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据可视化" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据可视化/Run.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/50、Pow(x, n).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SchoolHRSystem" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="7、整数反转" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,11 +135,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构/SchoolHRSystem.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/7、整数反转.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="9、回文数" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/9、回文数.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,32 +177,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据可视化" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\huangsb1\PycharmProjects\python-learning\数据可视化\QListWidgetTest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据可视化" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据可视化/test2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,16 +192,16 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Run" />
-        <item itemvalue="Python.SchoolHRSystem" />
+        <item itemvalue="Python.9、回文数" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.ComboList" />
-        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.7、整数反转" />
+        <item itemvalue="Python.50、Pow(x, n)" />
+        <item itemvalue="Python.归并排序" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\10031\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -184,74 +225,64 @@
       <option name="project" value="LOCAL" />
       <updated>1567505486683</updated>
     </task>
-    <task id="LOCAL-00003" summary="2019/9/5/17:58">
-      <created>1567677521036</created>
+    <task id="LOCAL-00003" summary="2019/9/3/18:11">
+      <created>1567526753402</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1567677521036</updated>
+      <updated>1567526753402</updated>
     </task>
-    <task id="LOCAL-00004" summary="2019/9/6/14:34">
-      <created>1567751696429</created>
+    <task id="LOCAL-00004" summary="2019/9/4/0:06">
+      <created>1567526779567</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1567751696430</updated>
+      <updated>1567526779567</updated>
     </task>
-    <task id="LOCAL-00005" summary="2019/9/9/13:44">
-      <created>1568007923958</created>
+    <task id="LOCAL-00005" summary="2019/9/4/0:09">
+      <created>1567526954467</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1568007923958</updated>
+      <updated>1567526954467</updated>
     </task>
-    <task id="LOCAL-00006" summary="2019/9/9/16:23">
-      <created>1568017425134</created>
+    <task id="LOCAL-00006" summary="2019/9/4/0:09">
+      <created>1567614470640</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1568017425134</updated>
+      <updated>1567614470640</updated>
     </task>
-    <task id="LOCAL-00007" summary="2019/9/9/18:05">
-      <created>1568023531277</created>
+    <task id="LOCAL-00007" summary="2019/9/5/0:28">
+      <created>1567614498357</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1568023531277</updated>
+      <updated>1567614498357</updated>
     </task>
-    <task id="LOCAL-00008" summary="2019/9/10/17:47">
-      <created>1568108850216</created>
+    <task id="LOCAL-00008" summary="2019/9/8/13:50">
+      <created>1567921814556</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1568108850216</updated>
+      <updated>1567921814556</updated>
     </task>
-    <task id="LOCAL-00009" summary="2019/9/10/17:47">
-      <created>1568108897589</created>
+    <task id="LOCAL-00009" summary="2019/9/21/23:10">
+      <created>1569078610017</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1568108897589</updated>
+      <updated>1569078610017</updated>
     </task>
-    <task id="LOCAL-00010" summary="2019/9/11/16:07">
-      <created>1568189256602</created>
+    <task id="LOCAL-00010" summary="2019/9/25/13:38">
+      <created>1569389908145</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1568189256602</updated>
+      <updated>1569389908145</updated>
     </task>
     <option name="localTasksCounter" value="11" />
     <servers />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -270,22 +301,36 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="2019/9/3/12:34" />
     <MESSAGE value="2019/9/3/18:11" />
-    <MESSAGE value="2019/9/5/17:58" />
-    <MESSAGE value="2019/9/6/14:34" />
-    <MESSAGE value="2019/9/9/13:44" />
-    <MESSAGE value="2019/9/9/16:23" />
-    <MESSAGE value="2019/9/9/18:05" />
-    <MESSAGE value="2019/9/10/17:47" />
-    <MESSAGE value="2019/9/11/16:07" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019/9/11/16:07" />
+    <MESSAGE value="2019/9/4/0:06" />
+    <MESSAGE value="2019/9/4/0:09" />
+    <MESSAGE value="2019/9/5/0:28" />
+    <MESSAGE value="2019/9/8/13:50" />
+    <MESSAGE value="2019/9/21/23:10" />
+    <MESSAGE value="2019/9/25/13:38" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019/9/25/13:38" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/数据可视化/PraseRespond.py</url>
-          <line>90</line>
-          <option name="timeStamp" value="13" />
+          <url>file://$PROJECT_DIR$/数据可视化/QListWidgetTest.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/校招上机考试/vivo2.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/菜鸟教程/插入排序.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/菜鸟教程/快速排序.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -19,7 +19,7 @@ class SQueue():
     def dequeue(self):
         if self._num == 0:
             raise QueueUnderflow
-        e = self._elems(self._head)
+        e = self._elems[self._head]
         self._head = (self._head+1) % self._len
         self._num -= 1
         return e

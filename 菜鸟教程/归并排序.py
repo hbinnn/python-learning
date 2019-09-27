@@ -17,7 +17,7 @@ nums = [1, 5, 8, 1, 2, 4, 5]
 def merge(left, right):
     result = []
     i = j = 0
-    while len(left) > i and len(right)>j:
+    while len(left) > i and len(right) > j:
         if left[i] > right[j]:
             result.append(left[i])
             i += 1

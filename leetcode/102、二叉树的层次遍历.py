@@ -22,6 +22,8 @@
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 """
 # Definition for a binary tree node.
+
+
 class TreeNode:
     def __init__(self, x):
         self.val = x
@@ -47,8 +49,8 @@ class Solution:
             if node.right:
                 helper(node.right, level+1)
 
-            helper(root, 0)
-            return levels
+        helper(root, 0)
+        return levels
 
 
 # 迭代
