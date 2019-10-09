@@ -41,4 +41,4 @@ def bubble_sort_optimised(nums):
 
 
 nums = [72, 6, 57, 88, 60, 42, 83, 73, 48, 82]
-print(bubble_sort_optimised(nums))
+print(bubble_sort(nums))
