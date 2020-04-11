@@ -1,15 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="469cd64c-a6a2-455b-81c5-9687bdf6e328" name="Default Changelist" comment="2019/9/27/9:38">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+    <list default="true" id="469cd64c-a6a2-455b-81c5-9687bdf6e328" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/leetcode/24、两两交换链表中的节点.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/1、两数之和.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/1、两数之和.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/2、两数相加.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/2、两数相加.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/933、最近的请求次数.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/933、最近的请求次数.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,31 +51,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="E:/XMU/大三下/多媒体通信/作业/作业三/程序/huffman.py" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.1、两数之和">
-    <configuration name="冒泡排序" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/菜鸟教程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/菜鸟教程/冒泡排序.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.ToolTip">
     <configuration name="1、两数之和" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,7 +76,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="9、回文数" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ToolTip" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -91,56 +84,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyQt5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/9、回文数.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/菜鸟教程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/菜鸟教程/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQt5/ToolTip.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,11 +100,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ToolTip" />
         <item itemvalue="Python.1、两数之和" />
-        <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.冒泡排序" />
-        <item itemvalue="Python.9、回文数" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +127,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567482154902</updated>
-      <workItem from="1584167574079" duration="2148000" />
+      <workItem from="1584167574079" duration="2947000" />
+      <workItem from="1584962447851" duration="805000" />
+      <workItem from="1585732280843" duration="3098000" />
+      <workItem from="1585829173350" duration="1667000" />
+      <workItem from="1585899344440" duration="6381000" />
+      <workItem from="1585967117517" duration="3682000" />
+      <workItem from="1586226328071" duration="2555000" />
+      <workItem from="1586270854248" duration="708000" />
+      <workItem from="1586434472391" duration="4364000" />
+      <workItem from="1586574787755" duration="859000" />
     </task>
     <task id="LOCAL-00001" summary="2019/9/3/12:34">
       <created>1567485270205</created>
@@ -260,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569548279911</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="2019/9/27/9:38">
+      <created>1584170970963</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1584170970964</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,10 +255,38 @@
     <option name="LAST_COMMIT_MESSAGE" value="2019/9/27/9:38" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="372" y="26" key="CommitChangelistDialog2" timestamp="1584170508128">
+    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585904041360">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="372" y="26" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1584170508128" />
+    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1585904041360" />
+    <state x="372" y="26" key="CommitChangelistDialog2" timestamp="1584170969821">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="372" y="26" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1584170969821" />
+    <state width="1493" height="194" key="GridCell.Tab.0.bottom" timestamp="1585907352853">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="194" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585907352853" />
+    <state width="1493" height="194" key="GridCell.Tab.0.center" timestamp="1585907352852">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="194" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1585907352852" />
+    <state width="1493" height="194" key="GridCell.Tab.0.left" timestamp="1585907352852">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="194" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1585907352852" />
+    <state width="1493" height="194" key="GridCell.Tab.0.right" timestamp="1585907352852">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="194" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1585907352852" />
+    <state x="216" y="149" key="SettingsEditor" timestamp="1585906738656">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="216" y="149" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1585906738656" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1584171014307">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1584171014307" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -325,6 +315,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_learning$1.coverage" NAME="1、两数之和 Coverage Results" MODIFIED="1584167620922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
+    <SUITE FILE_PATH="coverage/python_learning$1.coverage" NAME="1、两数之和 Coverage Results" MODIFIED="1585904045367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
+    <SUITE FILE_PATH="coverage/python_learning$ToolTip.coverage" NAME="ToolTip Coverage Results" MODIFIED="1585906671153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5" />
   </component>
 </project>

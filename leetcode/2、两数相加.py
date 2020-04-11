@@ -21,7 +21,7 @@ class ListNode:
         self.next = None
 
 class Solution:
-    def addTwoNumbers(self,l1: ListNode, l2: ListNode) -> ListNode:
+    def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         re = ListNode(0)
         r = re
         # carry为进位标识
