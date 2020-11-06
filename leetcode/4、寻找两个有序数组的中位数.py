@@ -64,4 +64,4 @@ class Solution:
 
 
 s = Solution()
-s.findMedianSortedArrays([1, 3], [2])
+print(s.findMedianSortedArrays([1, 3], [2]))

@@ -25,3 +25,4 @@ def shell_sort(nums):
     return nums
 
 nums = [72, 6, 57, 88, 60, 42, 83, 73, 48, 82]
+shell_sort(nums)

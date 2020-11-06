@@ -40,7 +40,7 @@ def merge_sort(l):
 
 
 if __name__ == '__main__':
-    a =  merge_sort(nums)
+    a = merge_sort(nums)
     print(a)
     # def test(n):
     #     print '第一个n: %s' % n

@@ -38,10 +38,10 @@ def sum2(nums, target):
 def sum3(nums, target):
     dic = {}
     for i, num in enumerate(nums):
-        if num in dic:
-            return [dic[num], i]
+        if target-num in dic:
+            return [dic[target-num], i]
         else:
-            dic[target-num] = i
+            dic[num] = i
 
 
 print(sum(nums, target))
